@@ -3,7 +3,7 @@ const cards = document.querySelectorAll(".card"),
   flipsTag = document.querySelector(".flips b"),
   refreshBtn = document.querySelector(".details button");
 
-let maxTime = 120;
+let maxTime = 60;
 let timeLeft = maxTime;
 let flips = 0;
 let matchedCard = 0;
